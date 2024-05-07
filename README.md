@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# SKALE Schain -> Mainnet NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is an example repo of contracts that would enable a token deployed on SKALE be "bridged" back to Mainnet
+through IMA through a "bypass" of functionality where you mint the supply directly
+into the DepositBox on Ethereum Mainnet (or Holesky).
 
-Try running some of the following tasks:
+### Security and Liability
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+These contracts and code is WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+### License
+
+See [MIT License](./LICENSE).
